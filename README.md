@@ -1,7 +1,7 @@
 # drupal-console-ro
 DrupalConsole Romanian Language / limba română
 
-# 1
+# Versiunea în limba română
   
   Versiunea în limba română
 
