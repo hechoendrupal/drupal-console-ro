@@ -2,8 +2,6 @@
 DrupalConsole Romanian Language / limba română
 
 # Versiunea în limba română
-  
-  Versiunea în limba română
 
 ## Usage
 
