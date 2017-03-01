@@ -4,7 +4,7 @@ messages:
     welcome-feature-generate: 'Genera cod șablon.'
     welcome-feature-interact: 'Interacționa cu o instanță de Drupal 8.'
     welcome-feature-learn: 'Învăța Drupal 8.'
-    links: 'Project links'
+    links: 'Linkuri de proiect'
     landing: 'Pagina de destinație <comment>"%s"</comment>'
     change-log: 'Jurnal modificări la <comment>"%s"</comment>'
     documentation: 'Documentația pentru proiectul Drupal Console la <comment>"%s"</comment>'
