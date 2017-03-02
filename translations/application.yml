@@ -1,4 +1,4 @@
-options:
+﻿options:
     env: 'Numele mediului de lucru.'
     no-debug: 'Oprește modul de depanare.'
     learning: 'Generarea unui cod verbal.'
@@ -6,7 +6,7 @@ options:
     generate-inline: 'Printează opțiunile și argumentele de execuție în apel inline pentru a fi folosit pe viitor'
     generate-doc: 'Arată opțiuni de comandă și argumente ca markdown.'
     root: 'Definiți rădăcina Drupal care va fi folosită la executarea comenzilor'
-    uri: 'URI-ul site-ului Drupal care va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)'
+    uri: 'URI-ul site-ului Drupal care va fi folosit (pentru medii multi-site sau când rulează pe un port alternativ)'
     'yes': 'Săriți peste confirmare și continuați.'
     target: 'Numele site-ului cu care vreți să interacționați (pentru site-uri locale sau remote)'
     help: 'Afișează acest mesaj de ajutor'
