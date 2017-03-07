@@ -2,12 +2,12 @@ description: 'Execuție comandă înlănțuită'
 options:
     file: 'Fişier definit de utilizator ce conţine comenzi care urmează să fie executate.'
 questions:
-    chain-file: 'Select chain file to execute'
+    chain-file: 'Selectează fișier chain pentru a fi executat'
 messages:
     missing_file: 'Trebuie să furnizați o cale către fișier și un nume valid.'
     invalid_file: 'Fișierul "%s" nu există.'
-    module_install: 'comanda module:install nu poate fi executată în interiorul unei cozi de așteptare și trebuie executată imediat.'
-    missing-environment-placeholders: 'Missing environment placeholder(s) "%s"'
-    set-environment-placeholders: 'Set environment placeholders as:'
-    missing-inline-placeholders: 'Missing inline placeholder(s) "%s"'
-    set-inline-placeholders: 'Pass inline placeholders as:'
+    module_install: 'comanda module:install nu poate fi pusă în așteptare (queue) și trebuie executată imediat.'
+    missing-environment-placeholders: 'Nota/notele explicativă/e (placeholder/s) a/le mediului "%s" lipsește / lipsesc.'
+    set-environment-placeholders: 'Setează nota/notele explicativă/e (placeholder/s) a/le mediului ca:'
+    missing-inline-placeholders: 'Nota/notele explicativă/e (placeholder/s) inline "%s" lipsește / lipsesc.'
+    set-inline-placeholders: 'Setează nota/notele explicativă/e (placeholder/s) inline ca:'
