@@ -9,7 +9,7 @@ messages:
     not-exists: 'Configurația "%s" nu există.'
 errors:
     config-storage: 'Tipul configurației nu a putut fi încărcată.'
-    name: 'Numele configurației trebuie sa conțină o valoare.'
+    name: 'Numele configurației trebuie să conțină o valoare.'
     type: 'Tipul configurației lipsește.'
     not-exists: 'Configurația "%s" nu există.'
 warnings:
