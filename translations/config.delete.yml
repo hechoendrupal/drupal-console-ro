@@ -1,18 +1,18 @@
-description: 'Delete configuration'
+description: 'Șterge configurația'
 arguments:
-    type: 'Configuration type.'
-    name: 'Configuration name.'
+    type: 'Tipul de configurație.'
+    name: 'Numele configurației.'
 messages:
-    all: 'All configuration sucessfully deleted.'
-    deleted: 'Configuration "%s" sucessfully deleted.'
-    name: 'Configuration name must contain a value.'
-    not-exists: 'The configuration "%s" does not exists.'
+    all: 'Toate configurațiile au fost șterse cu succes.'
+    deleted: 'Configurația "%s" a fost ștearsă cu succes.'
+    name: 'Numele configurației trebuie sa conțină o valoare.'
+    not-exists: 'Configurația "%s" nu există.'
 errors:
-    config-storage: 'Configuration type would not be loaded.'
-    name: 'Configuration name must contain a value.'
-    type: 'Configuration type is missing.'
-    not-exists: 'The configuration "%s" does not exists.'
+    config-storage: 'Tipul configurației nu a putut fi încărcată.'
+    name: 'Numele configurației trebuie sa conțină o valoare.'
+    type: 'Tipul configurației lipsește.'
+    not-exists: 'Configurația "%s" nu există.'
 warnings:
-    undo: 'This action will delete all configuration permanentaly.'
+    undo: 'Această acțiune va șterge permanent toate configurațiile.'
 questions:
-    sure: 'Are you sure to delete all configuration'
+    sure: 'Sunteți sigur(ă) că vreți să ștergeți toate configurațiile?'
