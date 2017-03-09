@@ -1,6 +1,6 @@
 description: 'Șterge configurația'
 arguments:
-    type: 'Tipul de configurație.'
+    type: 'Tipul configurației.'
     name: 'Numele configurației.'
 messages:
     all: 'Toate configurațiile au fost șterse cu succes.'
