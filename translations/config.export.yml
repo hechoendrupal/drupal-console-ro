@@ -1,10 +1,10 @@
-description: 'Exportă configurările curente ale aplicației.'
+description: 'Exportă configurațiile curente ale aplicației.'
 arguments:
-    directory: 'Indică calea de salvare pentru configurările exportate.'
-    tar: 'If set, the configuration will be exported to an archive file.'
+    directory: 'Indică o cale de salvare pentru configurațiile exportate.'
+    tar: 'Dacă a fost setată, configurația va fi exportată într-un fișier de tip arhivă.'
 messages:
-    directory: 'Fișierul de configurări a fost salvat în "%s"'
-    error: 'An error occurred while creating your directory at "%s"'
+    directory: 'Fișierul de configurații a fost salvat în "%s"'
+    error: 'A apărut o eroare la crearea directorului din "%s"'
 content:
     type:
         description: 'Exportă un anumit tip de conținut și câmpurile aferente.'
@@ -12,37 +12,37 @@ content:
             content_type: 'Tipul de conținut ce urmează a fi exportat'
         questions:
             content_type: 'Tipul de conținut ce urmează a fi exportat'
-            optional-config: 'Exportă tipul de conținut într-un modul ca și o configurare opțională'
+            optional-config: 'Exportă tipul de conținut într-un modul ca și o configurație opțională'
         messages:
             content_type_exported: 'Tip de conținut exportat'
-            configuration_exported: 'Următorul fișier de configurare a fost generat'
+            configuration_exported: 'Următorul fișier de configurație a fost generat'
         options:
-            optional-config: 'Exportă tipul de conținut ca un fișier opțional de configurare YAML în modulul tău'
+            optional-config: 'Exportă tipul de conținut ca un fișier opțional de configurație YAML în modulul tău'
 single:
-    description: 'Exportă o singură configurare ca fișier YAML.'
+    description: 'Exportă o singură configurație ca fișier YAML.'
     arguments:
-        config-name: 'Numele configurării.'
+        config-name: 'Numele configurației.'
     options:
-        simple-configuration: 'Configurare simplă'
+        simple-configuration: 'Configurație simplă'
     questions:
-        config-type: 'Tipul configurării'
-        config-name: 'Numele configurării'
+        config-type: 'Tipul configurației'
+        config-name: 'Numele configurației'
     messages:
-        config-not-found: 'Numele configurării nu a fost găsit.'
-        export: 'Configurarea a fost exportată la fișierul "%s".'
-        invalid-config-type: 'Tip de configurare invalid, vă rugăm să selectați unul din listă'
-        invalid-config-name: 'Numele configurării invalid, vă rugăm să selectați unul din listă'
+        config-not-found: 'Numele configurației nu a fost găsit.'
+        export: 'Configurația a fost exportată la fișierul "%s".'
+        invalid-config-type: 'Tip de configurație invalid, vă rugăm să selectați unul din listă'
+        invalid-config-name: 'Numele configurației invalid, vă rugăm să selectați unul din listă'
 view:
     description: 'Exportă un view în format YAML în cadrul unui modul pentru a fi reutilizat într-un alt website.'
     messages:
         view_exported: 'Exportă view'
-        depencies-included: 'Dependințele modulului au fost incluse la "%s"'
+        depencies-included: 'Dependențele modulului au fost incluse la "%s"'
     questions:
         view: 'View-ul de exportat'
-        optional-config: 'Exportă view-ul într-un modul ca o configurare opțională'
-        include-module-dependencies: 'Include modulul views ca dependință în fișierul info YAML'
+        optional-config: 'Exportă view-ul într-un modul ca o configurație opțională'
+        include-module-dependencies: 'Include modulul views ca dependență în fișierul info YAML'
     arguments:
         view-id: 'View ID'
     options:
-        optional-config: 'Exportă view-ul ca un fișier de configurare YAML în modul'
-        include-module-dependencies: 'Include dependințele modulului în fișierul info YAML'
+        optional-config: 'Exportă view-ul ca un fișier de configurație YAML în modul'
+        include-module-dependencies: 'Include dependențele modulului în fișierul info YAML'
