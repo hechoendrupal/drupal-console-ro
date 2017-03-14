@@ -1,11 +1,11 @@
-description: 'Import the selected configuration.'
+description: 'Importă configurația selectată.'
 arguments:
-    name: 'Configuration name.'
-    file: 'Path to the import file'
-    input-file: 'Path to the import files.'
+    name: 'Numele configurației.'
+    file: 'Calea către fișierul de importat'
+    input-file: 'Calea către fișierele de importat.'
 questions:
-    name: 'Enter configuration name'
-    file: 'Enter path to the import file'
+    name: 'Introduceți numele configurației'
+    file: 'Introduceți calea către fișierul de importat.'
 messages:
-    empty-value: 'Value can not be empty'
-    success: 'The configuration "%s", had been imported.'
+    empty-value: 'Valoarea nu poate rămâne goală'
+    success: 'Configurația "%s" a fost importată.'
