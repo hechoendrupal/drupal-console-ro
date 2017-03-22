@@ -1,4 +1,4 @@
-description: 'Suprascrie valoarea de configurare în configurația activă.'
+﻿description: 'Suprascrie valoarea de configurare în configurația activă.'
 questions:
     name: 'Introduceți numele configurației'
     key: 'Introduceți cheia configurației'
@@ -16,5 +16,5 @@ messages:
     invalid-name: 'Obiectul config "%s" nu există.'
 examples:
     -
-        description: 'Setează valoarea "flood" a modulului. Définir la valeur de "flood" du module Contact à 10.'
+        description: 'Setează valoarea 10 pentru "flood" a modulului Contact.'
         execution: 'drupal config:override contact.settings flood.limit 10'
