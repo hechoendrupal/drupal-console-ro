@@ -16,9 +16,9 @@ questions:
         - Acum
         - 'Acum 1 oră'
         - 'Acum 1 zi'
-        - 'Acum o săptămână'
-        - 'Acum o lună'
-        - 'Acum un an'
+        - 'Acum 1 săptămână'
+        - 'Acum 1 lună'
+        - 'Acum 1 an'
 messages:
     node-id: 'ID-ul nodului (Node Id)'
     content-type: 'Tipul de conținut'
