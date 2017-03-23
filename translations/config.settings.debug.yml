@@ -1,5 +1,5 @@
-description: 'Displays current key:value on settings file.'
-help: 'The <info>config:settings:debug</info> command helps you displaying current key:value on settings file.'
-welcome: 'Welcome to the Drupal Config Settings Debug command'
+description: 'Afișează key:value actuală pentru fișierul de setări.'
+help: 'Comanda <info>config:settings:debug</info> ajută la afișarea key:value actuală pentru fișierul de setări.'
+welcome: 'Bine ați venit la comanda Drupal, Config Settings Debug!'
 messages:
-    current: 'Current Key:value on settings file'
+    current: 'Key:value actuală a fișierului de setări.'
