@@ -1,14 +1,14 @@
-description: 'Creează noduri fictive (dummy) pentru aplicația ta Drupal 8.'
+description: 'Creați noduri fictive (dummy) pentru aplicația Dvs. Drupal 8.'
 help: 'Comanda <info>create:nodes</info> vă ajută sa creați termeni fictivi (dummy).'
 welcome: ''Bine ați venit la generatorul de noduri Drupal!'
 arguments:
     content-types: 'Tipul(rile) de conținut care vor fi folosite la crearea nodurilor'
 options:
-    limit: 'How many nodes would you like to create'
+    limit: 'Câte noduri doriți sa creați?'
     title-words: 'Numărul maxim de cuvinte în titlurile nodurilor'
     time-range: 'Cât de departe înapoi în timp să fie datate nodurile?'
 questions:
-    content-type: 'Selectează tipul(rile) de conținut care vor fi folosite la crearea nodurilor'
+    content-type: 'Selectați tipul(rile) de conținut care vor fi folosite la crearea nodurilor'
     limit: 'Introduceți numărul de noduri pe care îl vreți generat.'
     title-words: 'Introduceți numărul maxim de cuvinte din titluri'
     time-range: 'Cât de departe înapoi în timp să fie datate nodurile?'
