@@ -1,13 +1,13 @@
-description: 'Create dummy terms for your Drupal 8 application.'
-help: 'The <info>create:nodes</info> command helps you generate fake nodes.'
-welcome: 'Welcome to the Drupal terms creator'
+description: 'Creează termeni fictivi (dummy) pentru aplicația ta Drupal 8.'
+help: 'Comanda  <info>create:nodes</info> ajută la generarea de noduri fictive (fake nodes).'
+welcome: 'Bine ai venit la generatorul de termeni Drupal!'
 arguments:
-    vocabularies: 'Vocabularie(s) to be used in terms creation'
+    vocabularies: 'Vocabular(e) folosit(e) in crearea de termeni'
 options:
-    limit: 'How many terms would you like to create'
-    name-words: 'Maximum number of words in term names'
+    limit: 'Câți termeni vreți să creați?'
+    name-words: 'Numărul maxim de cuvinte în titlurile termenilor'
 questions:
-    vocabularies: 'Select vocabularie(s) to be used on terms creation'
+    vocabularies: 'SelectaSelect vocabularie(s) to be used on terms creation'
     limit: 'Enter how many terms would you like to create'
     name-words: 'Enter the maximum number of words in term names'
 messages:

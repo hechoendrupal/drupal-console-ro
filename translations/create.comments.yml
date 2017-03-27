@@ -1,15 +1,15 @@
-description: 'Creează comentarii fictive (dummy) pentru aplicația ta Drupal 8.'
+description: 'Creați comentarii fictive (dummy) pentru aplicația Dvs. Drupal 8.'
 help: 'Comanda <info>create:comments</info> vă ajută sa creați comentarii fictive (dummy).'
 welcome: 'Bine ați venit la generatorul de comentarii Drupal!'
 arguments:
     node-id: 'ID-ul nodului (Node ID), unde se vor crea comentariile.'
 options:
-    limit: 'Câte comentarii ați vrea să creați?'
+    limit: 'Câte comentarii vreți să creați?'
     title-words: 'Numărul maxim de cuvinte în titlurile comentariilor'
     time-range: 'Cât de departe înapoi în timp să fie datate comentariile?'
 questions:
     node-id: 'ID-ul nodului (Node ID), unde se vor crea comentariile.'
-    content-type: 'Selectează tipul(rile) de conținut care vor fi folosite la crearea comentariilor'
+    content-type: 'Selectați tipul(rile) de conținut care vor fi folosite la crearea comentariilor'
     limit: 'Introduceți numărul de comentarii pe care îl vreți generat.'
     title-words: 'Introduceți numărul maxim de cuvinte din titluri'
     time-range: 'Cât de departe înapoi în timp să fie datate comentariile?'
