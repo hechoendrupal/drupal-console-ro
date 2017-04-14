@@ -1,4 +1,4 @@
-description: 'Creați utilizatori fictivi (dummy) pentru aplicația Dvs. Druupal 8.'
+description: 'Creați utilizatori fictivi (dummy) pentru aplicația Dvs. Drupal 8.'
 help: 'Comanda <info>create:users</info> ajută la generarea de utilizatori fictivi (fake)'
 welcome: 'Bine ați venit la generatorul de utilizatori Drupal!'
 arguments:
