@@ -3,7 +3,7 @@ arguments:
     event-id: 'ID eveniment DBLog'
 options:
     type: 'Filtrați evenimentele după un anumit tip de eveniment'
-    severity: 'Filtrați evenimentele după un anumit nivel de strictețe'
+    severity: 'Filtrați evenimentele după un anumit nivel de severitate'
     user-id: 'Filtrați evenimentele după un anumit user ID'
 messages:
     event-deleted: 'Evenimentul "%s" a fost șters'
