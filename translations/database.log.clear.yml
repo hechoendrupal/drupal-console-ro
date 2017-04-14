@@ -4,7 +4,7 @@ arguments:
 options:
     type: 'Filtrați evenimentele după un anumit tip de eveniment'
     severity: 'Filtrați evenimentele după un anumit nivel de severitate'
-    user-id: 'Filtrați evenimentele după un anumit user ID'
+    user-id: 'Filtrați evenimentele după un anumit ID de utilizator'
 messages:
     event-deleted: 'Evenimentul "%s" a fost șters'
     clear-error: 'Procesul de curățare a eșuat, vă rugăm să verificați filtrele folosite'
