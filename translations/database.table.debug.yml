@@ -1,7 +1,7 @@
 description: 'Afișează toate tabelele dintr-o bază de date anume.'
 help: 'Comanda <info>database:table:debug</info> ajută la depanarea tabelelor din baza de date.'
 arguments:
-    table: 'Tabel pentru depanare'
+    table: 'Tabelul care urmează a fi depanat'
     database: 'Cheia bazei de date din settings.php'
 options:
     database: 'Cheia bazei de date din settings.php'
