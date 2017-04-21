@@ -1,5 +1,5 @@
-description: 'Generate documentations for Commands.'
+description: 'Generați documentații pentru comenzi.'
 options:
-    file: 'The file to render the command data'
+    file: 'Fișierul care va randa datele comenzii'
 messages:
-    missing_file: 'The file is missing, use --file option.'
+    missing_file: 'Fișierul lipsește, folosiți --file option.'
