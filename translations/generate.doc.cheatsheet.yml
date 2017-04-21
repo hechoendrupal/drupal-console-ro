@@ -1,18 +1,18 @@
-description: 'Generate a printable cheatsheet for Commands'
+description: 'Generați un cheat sheet printabil pentru comenzi'
 options:
-    path: 'The path to generate the pdf for the documentation'
-    wkhtmltopdf: 'The path for the wkhtmltopdf binary in your system'
+    path: 'Calea pentru a genera un PDF al documentației'
+    wkhtmltopdf: 'Calea pentru fișierul wkhtmltopdf binary din sistem'
 messages:
-    missing_path: 'The path is missing'
+    missing_path: 'Cale lipsă'
     title: 'Drupal Console Cheatsheet'
-    note: Note
-    note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
+    note: Notă
+    note-description: 'Comenzile consolei Drupal *trebuie* să ruleze din rădăcina unei instalații Drupal 8'
     command: 'Drupal Console Command'
-    command_description: 'The **"%s"** command "%s"'
-    usage: Usage
-    options: 'Available options'
-    option: Option
-    details: Details
-    arguments: 'Available arguments'
+    command_description: 'Comanda **"%s"** "%s"'
+    usage: Utilizare
+    options: 'Opțiuni disponibile'
+    option: Opțiune
+    details: Detalii
+    arguments: 'Argumente disponibile'
     argument: Argument
-    examples: Examples
+    examples: Exemple
