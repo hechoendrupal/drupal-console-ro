@@ -1,9 +1,9 @@
-description: 'Generează documentațiile pentru Comenzi'
+﻿description: 'Generează documentațiile pentru Comenzi'
 options:
     path: 'Calea de randare a documentației'
 messages:
     missing_path: 'Calea lipsește'
-    title: 'Comenzi disponibile pentru Consola de Drupal '
+    title: 'Comenzi disponibile pentru Consola de Drupal'
     note: Notă
     note-description: 'Comenzile Consolei de Drupal *trebuie* să fie rulate din rădăcina instalării Drupal 8'
     command: 'Comanda Consolei Drupal'
