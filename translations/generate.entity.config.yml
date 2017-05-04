@@ -5,12 +5,12 @@ options:
     entity-class: 'Clasa entității de configurare'
     entity-name: 'Numele entității de configurare'
     label: Eticheta
-    bundle-of: 'Acts as bundle for content entities'
-    base-path: 'The base-path for the config entity routes'
+    bundle-of: 'Acționează ca un set (bundle) pentru entitățile de conținut'
+    base-path: 'Calea de bază (base-path) pentru rutele entității de configurare'
 questions:
     module: common.questions.module
-    entity-class: 'Introduceți clasa noii dvs. entități de configurare'
-    entity-name: 'Introduceți numele noii dvs. entități de configurare'
-    label: 'Introduceți eticheta noii dvs. entități de configurare'
-    bundle-of: 'Name of the content entity you want this (config) entity to act as a bundle for'
-    base-path: 'Enter the base-path for the config entity routes'
+    entity-class: 'Introduceți clasa noii Dvs. entități de configurare'
+    entity-name: 'Introduceți numele noii Dvs. entități de configurare'
+    label: 'Introduceți eticheta noii Dvs. entități de configurare'
+    bundle-of: 'Numele entității de conținut pentru care doriți ca entitatea config să acționeze ca un set (bundle)'
+    base-path: 'Introduceți calea de bază (base-path) pentru rutele entității config'
