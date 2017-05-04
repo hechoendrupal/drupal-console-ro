@@ -1,6 +1,6 @@
-description: 'Generate an implementation of hook_help()'
-help: 'The <info>"%s"</info> command helps you generate a hook help "%s"'
+description: 'Generează o implementare a hook_help()'
+help: 'Comanda <info>"%s"</info> vă va ajuta să generați un hook help "%s"'
 options: null
 questions: null
 messages:
-    help-already-implemented: 'The hook help was already implemented in module "%s"'
+    help-already-implemented: 'Implementarea hook help a fost deja făcută în modulul "%s"'
