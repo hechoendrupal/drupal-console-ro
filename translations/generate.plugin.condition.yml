@@ -1,5 +1,5 @@
 description: 'Generează o condiție pentru extensie.'
-help: 'Comanda <info>generate:plugin:conditon</info> te va ajuta să creezi o condiție pentru extensie.'
+help: 'Comanda <info>generate:plugin:conditon</info> vă va ajuta să creați o condiție pentru extensie.'
 welcome: 'Bine ați venit la generatorul de condiții pentru extensii Drupal'
 options:
     module: common.options.module
