@@ -17,5 +17,5 @@ questions:
     inputs: common.questions.inputs
     services: common.questions.services
 messages:
-    inputs: "\nPuteți adăuga câmpuri pentru a crea configurări specifice blocului.\nAceasta este opțional, tastați <info>enter</info> pentru a <info>continua</info>"
+    inputs: "\nPuteți adăuga câmpuri pentru a crea configurări specifice blocului.\nAcesta este opțional, tastați <info>enter</info> pentru a <info>continua</info>"
     invalid-theme-region: 'Regiunea "%s" nu este validă'
