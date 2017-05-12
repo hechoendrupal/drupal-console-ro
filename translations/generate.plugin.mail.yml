@@ -1,4 +1,4 @@
-description: 'Genereaza un mail plugin'
+description: 'Generează un mail plugin'
 help: 'Comanda <info>generate:plugin:mail</info> vă va ajuta la generarea unui nou mail plugin.'
 welcome: 'Bine ați venit la generatorul de mail plugin Drupal'
 options:
