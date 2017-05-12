@@ -1,6 +1,6 @@
-description: 'Genereaza un mail pluginGenerate a plugin mail'
-help: 'Comanda <info>generate:plugin:mail</info> va va ajuta la generarea unui nou mail plugin.'
-welcome: 'Welcome to the Drupal Plugin Mail generator Bine a?i venit la generatorul de mail plugin Drupal'
+description: 'Genereaza un mail plugin'
+help: 'Comanda <info>generate:plugin:mail</info> vă va ajuta la generarea unui nou mail plugin.'
+welcome: 'Bine ați venit la generatorul de mail plugin Drupal'
 options:
     module: common.options.module
     class: 'Numele clasei plugin-ului'
@@ -11,8 +11,8 @@ Plugin label'
     services: common.options.services
 questions:
     module: common.questions.module
-    class: 'Introduce?i numele clasei plugin-ului'
-    label: 'Introduce?i eticheta plugin-ului'
-    plugin-id: 'Introduce?i ID-ul plugin-ului'
+    class: 'Introduceți numele clasei plugin-ului'
+    label: 'Introduceți eticheta plugin-ului'
+    plugin-id: 'Introduceți ID-ul plugin-ului'
     inputs: common.questions.inputs
     services: common.questions.services
