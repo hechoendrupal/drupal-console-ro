@@ -1,5 +1,5 @@
-description: 'List image styles on the site'
+description: 'Listează stiluri de imagine în website'
 messages:
-    styles-list: 'Image Styles defined in the site'
-    styles-label: Label
-    styles-name: 'Machine Name'
+    styles-list: 'Stiluri de imagine definite în website'
+    styles-label: Etichetă
+    styles-name: 'Numele mașinii'
