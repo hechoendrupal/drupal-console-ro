@@ -11,7 +11,7 @@
     target: 'Numele site-ului cu care vreți să interacționați (pentru site-uri locale sau remote)'
     help: 'Afișează acest mesaj de ajutor'
     quiet: 'Nu afișa nici un mesaj'
-    verbose: 'Crește gradul de verbozitate a mesajelor: 1 pentru afișare normală, 2 pentru o afișare cu grad mai mare de verbozitate 3 pentru depanare'
+    verbose: 'Crește gradul de verbozitate a mesajelor: 1 pentru afișare normală, 2 pentru o afișare cu grad mai mare de verbozitate și 3 pentru depanare'
     version: '<info>"%s"</info> versiunea <comment>"%s"</comment>'
     ansi: 'Forțează afișare ANSI'
     no-ansi: 'Dezactivează afișarea ANSI'
