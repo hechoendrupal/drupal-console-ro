@@ -1,8 +1,8 @@
-description: 'Elemente de configurație afișată care sunt diferite într-o configurație activă comparată cu un director.'
+description: 'Afișează elementele de configurație care sunt diferite între configurația activă și un director.'
 arguments:
-    directory: 'Directorul diff against. În cazul în care este omis, alegeți din directoarele config ale Drupalului.'
+    directory: 'Directorul pe care se bazează diff-ul. În cazul în care este omis, alegeți din directoarele config ale Drupalului.'
 options:
-    reverse: 'Vezi schimbările în sens invers(adică un director diff la o configurație activă).'
+    reverse: 'Vezi schimbările în sens invers (adică diff între un director și o configurație activă).'
 questions:
     directories: 'Directorul config:'
 table:
