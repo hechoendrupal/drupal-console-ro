@@ -1,10 +1,10 @@
 description: 'Afișează ajutorul pentru comenzi'
-help: "Comanda <info>%command.name%</info> afișează ajutorul pentru o comandă dată:\n\n<info>php %command.full_name% list</info>\n\n Puteți avea ajutorul și în alte formate prin comanda <comment>--format</comment> option:\n\n<info>php %command.full_name% --format=xml list</info>\n\n Pentru a afișa o listă de comenzi disponibile, vă rugăm folosiți <info>list</info> command.\n"
+help: "Comanda <info>%command.name%</info> afișează ajutorul pentru o comandă dată:\n\n<info>php %command.full_name% list</info>\n\n Puteți afișa ajutorul și în alte formate prin comanda <comment>--format</comment> option:\n\n<info>php %command.full_name% --format=xml list</info>\n\n Pentru a afișa o listă de comenzi disponibile, vă rugăm folosiți <info>list</info> command.\n"
 arguments:
     command_name: 'Numele comenzii'
 options:
-    xml: 'Pentru rezultate în format XML'
-    raw: 'Pentru rezultate ca listă de comenzi brută'
-    format: 'Formatul rezultatelor (txt, xml, json, or md)'
+    xml: 'Afișarea listei ca XML'
+    raw: 'Afișarea brută a listei de comenzi'
+    format: 'Formatul de afișare (txt, xml, json, or md)'
 messages:
     deprecated: 'Opțiunea <comment>--xml</comment> a fost depreciată în versiunea 2.7 și va fi eliminată în versiunea 3.0. Folosiți opțiunea <comment>--format</comment> ca înlocuitor'
