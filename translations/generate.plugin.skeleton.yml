@@ -1,13 +1,13 @@
-description: 'Generate an implementation of a skeleton plugin for those plugins Drupal Console do not have a specific generator'
-help: 'The <info>"%s"</info> command helps you generate a skeleton plugin "%s"'
+description: 'Generează implementarea unui plugin de stip schelet pentru acele pluginuri Drupal, care nu au un generator specific'
+help: 'Comansa <info>"%s"</info> vă va ajuta să generați un plugin de tip schelet "%s"'
 options:
     module: common.options.module
-    plugin: 'The Plugin Id.'
-    class: 'Plugin class name'
+    plugin: 'ID-ul pluginului'
+    class: 'Clasa pluginului'
 questions:
     module: common.questions.module
-    plugin: 'Enter the Plugin Id'
-    class: 'Enter the plugin class name'
+    plugin: 'Introduceți ID-ul pluginului'
+    class: 'Introduceți numele clasei pluginului'
 messages:
-    plugin-dont-exist: 'The plugin "%s" do not exist'
-    plugin-generator-implemented: 'Plugin "%s" already has an advanced command generator, please use "%s"'
+    plugin-dont-exist: 'Pluginul "%s" nu există'
+    plugin-generator-implemented: 'Pluginul "%s" are deja un generator de comenzi avansat, vă rugăm folosiți "%s"'

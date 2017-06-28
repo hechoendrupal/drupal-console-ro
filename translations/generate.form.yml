@@ -7,17 +7,17 @@ options:
     form-id: 'ID-ul formularului'
     services: common.options.services
     inputs: common.options.inputs
-    path: 'Enter the form path'
-    routing: 'Generate routing'
+    path: 'Introduceți calea formularului'
+    routing: 'Generați rutarea'
 questions:
     module: common.questions.module
     class: 'Introduceți numele clasei formularului'
     form-id: 'Introduceți ID-ul formularului'
     services: common.questions.services
     inputs: common.questions.inputs
-    routing: 'Would you like to register a route for this form'
-    menu_link_gen: 'Generate a menu link'
-    menu_link_title: 'A title for the menu link'
-    menu_parent: 'Menu parent'
-    menu_link_desc: 'A description for the menu link'
-    path: 'Enter the route path'
+    routing: 'Doriți să inregistrați o rută pentru acest formular?'
+    menu_link_gen: 'Generați un link al meniului'
+    menu_link_title: 'Titlul link-ului meniului'
+    menu_parent: 'Părintele meniului'
+    menu_link_desc: 'Descrierea link-ului meniului'
+    path: 'Introduceți calea rutei'

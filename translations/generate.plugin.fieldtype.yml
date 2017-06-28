@@ -1,5 +1,5 @@
-description: 'Generează extensia de tip câmp.'
-help: 'Comanda <info>generate:plugin:fieldtype</info> te ajută să generezi o extensie de timp câmp nouă.'
+﻿description: 'Generează extensia de tip câmp.'
+help: 'Comanda <info>generate:plugin:fieldtype</info> vă va ajuta să generați o extensie de timp câmp nou.'
 welcome: 'Bine ați venit la generatorul pentru extensii de tipuri de câmp Drupal'
 options:
     module: common.options.module

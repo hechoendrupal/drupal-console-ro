@@ -1,5 +1,5 @@
-description: 'Displays current cache context for the application.'
+description: 'Afișează contextul cache-ului actual pentru aplicație.'
 messages:
     code: 'Context ID'
-    label: 'Label'
-    class: 'Class path'
+    label: 'Etichetă'
+    class: 'Calea clasei'

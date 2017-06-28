@@ -1,5 +1,5 @@
 description: 'Generează un plugin care implementează o acţiune de rules'
-help: 'Comanda <info>generate:plugin:rulesaction</info> ajuta la generarea unui plugin care implementează o acţiune de rules.'
+help: 'Comanda <info>generate:plugin:rulesaction</info> vă va ajuta la generarea unui plugin care implementează o acţiune de rules.'
 welcome: 'Bun venit la "Drupal Plugin Rules Action generator"'
 options:
     module: common.options.module

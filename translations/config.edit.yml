@@ -1,8 +1,8 @@
-description: 'Editează configurarea selectată.'
+description: 'Editează configurația selectată.'
 arguments:
-    config-name: 'Numele configurării.'
-    editor: Editor.
+    config-name: 'Numele configurației.'
+    editor: 'Editor.'
 questions:
-    config-name: 'Alegeți o unitate de configurare'
+    config-name: 'Alegeți o unitate de configurație'
 messages:
     no-directory: 'A apărut o eroare în timpul creării directorului la'

@@ -1,8 +1,8 @@
-description: 'Execute an external command.'
+description: 'Excutați o comandă externă.'
 arguments:
-  bin: 'Executable name.'
+  bin: 'Denumirea executabilului.'
 messages:
-  success: 'Executed the command.'
-  invalid-bin: 'Error executing the command.'
-  missing-bin: 'Provide a executable.'
+  success: 'Comanda a fost executată.'
+  invalid-bin: 'A apărut o eroare la executarea comenzii.'
+  missing-bin: 'Oferiți un executabil.'
 

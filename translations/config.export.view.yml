@@ -1,7 +1,7 @@
-description: 'Exportă un view în format YAML în interiorul unui modul furnizat pentru a-l reutiliza în alt sit web.'
+description: 'Exportă un view în format YAML în interiorul unui modul furnizat pentru a-l reutiliza în alt site web.'
 messages:
     view_exported: 'Exportare view'
-    depencies-included: 'Următoarele dependințe ale modulului au fost incluse la "%s"'
+    depencies-included: 'Următoarele dependențe ale modulului au fost incluse la "%s"'
 questions:
     view: 'View-ul ce va fi exportat'
     optional-config: 'Exportați view-ul în modul ca și o configurare opțională'
@@ -9,5 +9,5 @@ questions:
 arguments:
     view-id: 'ID-ul view-ului'
 options:
-    optional-config: 'Exportați view-ul ca și o configurare YAML opțională în modulul dvs.'
-    include-module-dependencies: 'Includeți dependințele modulului în fișierul info YAML al modulului'
+    optional-config: 'Exportați view-ul ca și o configurare YAML opțională în modulul Dvs.'
+    include-module-dependencies: 'Includeți dependențele modulului în fișierul info YAML al modulului'

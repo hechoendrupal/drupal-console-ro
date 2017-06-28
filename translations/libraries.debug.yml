@@ -1,6 +1,6 @@
-description: 'Displays libraries available in application'
+description: 'Afișează librăriile disponibile în aplicație'
 options:
-    name: 'Enter Libraries Name'
+    name: 'Introduceți numele librăriilor'
 messages:
     name: 'Extension with Libraries'
-    info: 'Libraries Information'
+    info: 'Informațiile librăriilor'

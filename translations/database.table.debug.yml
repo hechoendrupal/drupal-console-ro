@@ -1,12 +1,12 @@
-description: 'Show all tables in a given database.'
-help: 'The <info>database:table:debug</info> command helps you debug database tables.'
+description: 'Afișează toate tabelele dintr-o bază de date anume.'
+help: 'Comanda <info>database:table:debug</info> ajută la depanarea tabelelor din baza de date.'
 arguments:
-    table: 'Table to debug'
-    database: 'Database key from settings.php'
+    table: 'Tabelul care urmează a fi depanat'
+    database: 'Cheia bazei de date din settings.php'
 options:
-    database: 'Database key from settings.php'
+    database: 'Cheia bazei de date din settings.php'
 messages:
-    table-show: 'Showing tables for "%s" database'
-    table: Table
-    column: Column
-    type: Type
+    table-show: 'Afișează tabelele pentru baza de date "%s"'
+    table: Tabel
+    column: Coloană
+    type: Tip

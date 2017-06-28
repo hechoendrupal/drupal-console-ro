@@ -1,10 +1,10 @@
 description: 'Eliminați evenimentele din tabelul DBLog, sunt disponibile filtre'
 arguments:
-    event-id: 'DBLog event ID'
+    event-id: 'ID eveniment DBLog'
 options:
-    type: 'Filter events by a specific type'
-    severity: 'Filter events by a specific level of severity'
-    user-id: 'Filter events by a specific user id'
+    type: 'Filtrați evenimentele după un anumit tip de eveniment'
+    severity: 'Filtrați evenimentele după un anumit nivel de severitate'
+    user-id: 'Filtrați evenimentele după un anumit ID de utilizator'
 messages:
     event-deleted: 'Evenimentul "%s" a fost șters'
     clear-error: 'Procesul de curățare a eșuat, vă rugăm să verificați filtrele folosite'

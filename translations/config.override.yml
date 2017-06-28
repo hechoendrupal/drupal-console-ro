@@ -1,20 +1,20 @@
-description: 'Suprascrie valoarea de configurare în configurarea activă.'
+﻿description: 'Suprascrie valoarea de configurare în configurația activă.'
 questions:
-    name: 'Enter configuration name'
-    key: 'Enter the configuration key'
-    value: 'Enter the configuration value'
+    name: 'Introduceți numele configurației'
+    key: 'Introduceți cheia configurației'
+    value: 'Introduceți valoarea configurației'
 arguments:
-    name: 'Configuration name'
+    name: 'Numele configurației'
     key: Cheie
     value: Valoare
-    config-name: 'Numele configurării.'
+    config-name: 'Numele configurației'
 messages:
-    configuration: 'Numele configurării'
-    configuration-key: 'Cheia configurării'
+    configuration: 'Numele configurației'
+    configuration-key: 'Cheia configurației'
     original: 'Valoarea originală'
     updated: 'Valoarea suprascrisă'
-    invalid-name: 'Config object "%s", does not exists'
+    invalid-name: 'Obiectul config "%s" nu există.'
 examples:
     -
-        description: 'Définir la valeur de "flood" du module Contact à 10.'
+        description: 'Setează valoarea 10 pentru "flood" a modulului Contact.'
         execution: 'drupal config:override contact.settings flood.limit 10'

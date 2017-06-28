@@ -1,5 +1,5 @@
 description: 'Generează extensiile: tipul de câmp, widget-ul si formatare.'
-help: 'Comanda <info>generate:plugin:field</info> te ajută să generezi un set complet de extensii: tipul câmpului ,formatarea câmpului și widgetul câmpului.'
+help: 'Comanda <info>generate:plugin:field</info> te ajută să generezi un set complet de extensii: tipul câmpului ,formatarea câmpului și widget-ul câmpului.'
 welcome: 'Bine ați venit la generatorul de tipuri de câmp Drupal'
 options:
     module: common.options.module
@@ -13,7 +13,7 @@ options:
     widget-class: 'Numele clasei extensiei de widget pentru câmp'
     widget-label: 'Eticheta extensiei de widget pentru câmp'
     widget-plugin-id: 'ID-ul extensiei de widget pentru câmp'
-    field-type: 'Tipul de câmp cu, care pot fi folosite formatarea si widgetul'
+    field-type: 'Tipul de câmp cu, care pot fi folosite formatarea si widget-ul'
     default-widget: 'Widget-ul predefinit al extensiei de tip câmp.'
     default-formatter: 'Formatarea predefinită pentru extensia de tip câmp'
 questions:
@@ -28,6 +28,6 @@ questions:
     widget-class: 'Introduceți numele clasei extensiei de widget pentru câmp'
     widget-label: 'Introduceți eticheta extensiei de widget pentru câmp'
     widget-plugin-id: 'Introduceți ID-ul extensiei de widget pentru câmp'
-    field-type: 'Introduceți tipul de câmp cu, care pot fi folosite formatarea si widgetul'
+    field-type: 'Introduceți tipul de câmp cu, care pot fi folosite formatarea si widget-ul'
     default-widget: 'Introduceți widget-ul predefinit al extensiei de tip câmp'
     default-formatter: 'Introduceți formatarea predefinită pentru extensia de tip câmp'

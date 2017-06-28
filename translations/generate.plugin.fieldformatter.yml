@@ -1,5 +1,5 @@
 description: 'Generează extensia de formatare a câmpului.'
-help: 'Comanda <info>generate:plugin:fieldformatter</info> te ajută să generezi o nouă extensie de formatare a câmpului.'
+help: 'Comanda <info>generate:plugin:fieldformatter</info> vă va ajuta să generezi o nouă extensie de formatare a câmpului.'
 welcome: 'Bine ați venit la generatorul de extensii de formatare a câmpului Drupal'
 options:
     module: common.options.module

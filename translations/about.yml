@@ -1,10 +1,10 @@
-description: 'Afișează informațiile de bază despre proiectul Drupal Console'
+﻿description: 'Afișează informațiile de bază despre proiectul Drupal Console'
 messages:
     welcome: 'Drupal Console este o colecție de tool-uri pe care le rulezi pe CLI pentru a:'
     welcome-feature-generate: 'Genera cod șablon.'
     welcome-feature-interact: 'Interacționa cu o instanță de Drupal 8.'
     welcome-feature-learn: 'Învăța Drupal 8.'
-    links: 'Project links'
+    links: 'Link-urile proiectului'
     landing: 'Pagina de destinație <comment>"%s"</comment>'
     change-log: 'Jurnal modificări la <comment>"%s"</comment>'
     documentation: 'Documentația pentru proiectul Drupal Console la <comment>"%s"</comment>'
