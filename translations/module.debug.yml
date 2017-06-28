@@ -1,20 +1,20 @@
-description: 'Afişează Modulele curente pentru aplicaţie'
+description: 'Afişează modulele curente pentru aplicaţie'
 options:
-    status: 'Starea Modulului [activat|dezactivat]'
-    type: 'Tipul Modulului [core|no-core]'
+    status: 'Starea modulului [activat|dezactivat]'
+    type: 'Tipul modulului [core|no-core]'
 messages:
     id: ID
     name: Nume
     status: Stare
     origin: Origine
     package: Pachet
-    installed: Installed
-    uninstalled: Uninstalled
-    version: Version
+    installed: Instalat
+    uninstalled: Dezinstalat
+    version: Versiune
     schema-version: 'Versiunea schemei'
-    total-downloads: 'Total installs'
-    total-monthly: 'Monthly installs'
-    total-daily: 'Daily installs'
-    no-results: 'Module "%s" was not found in the repository'
+    total-downloads: 'Totalul instalărilor'
+    total-monthly: 'Instalări lunare'
+    total-daily: 'Instalări zilnice'
+    no-results: 'Modulul "%s" nu a fost găsit.'
     enabled: Activat
     disabled: Dezactivat
