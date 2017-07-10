@@ -2,6 +2,8 @@ options:
     class: 'Class name'
     events: 'Încarcă evenimente din container'
     module: 'Numele Modulului.'
+    extension: 'The extension name.'
+    extension-type: 'The extension type.'
     services: 'Încarcă serviciile din container.'
     tags: 'Setează tag-urile serviciilor din container.'
     inputs: 'Creează intrări într-un formular.'
@@ -9,6 +11,8 @@ options:
 questions:
     class: 'Enter the Class name'
     module: 'Introduceți numele modulului'
+    extension: 'Enter the extension name'
+    extension-type: 'Enter the extension type'
     confirm: 'Confirmați generarea'
     canceled: 'Comanda a fost anulată'
     events:

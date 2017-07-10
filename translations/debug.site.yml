@@ -4,6 +4,11 @@ messages:
     site: Sit
     host: Gazdă
     root: Rădăcină
-    directory-not-found: 'Directorul local al sitului nu a fost găsit'
+    not-sites: 'No sites defined'
+    invalid-site: 'Invalid site name'
     private-key: 'Eroare la cheia privată'
     connect-error: 'Eroare la conectarea la mașina aflată la distanță'
+    directory-not-found: 'Directorul local al sitului nu a fost găsit'
+options:
+    target: Target
+    property: Property

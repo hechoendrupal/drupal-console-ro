@@ -1,6 +1,8 @@
 description: 'Schimbă configurarile de performanţă ale sistemului'
 arguments:
     environment: 'Numele mediului'
+options:
+    local: 'Use this option for testing PROD config, but using settings.local.php for connect to your local environment'
 messages:
     configuration: 'Numele Configuraţiei'
     configuration-key: 'Cheia Configuraţiei'

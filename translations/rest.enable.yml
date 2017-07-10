@@ -8,7 +8,10 @@ questions:
 messages:
     invalid-rest-id: 'ID-ul REST "%s" nu este corect'
     formats: 'Formatele disponibile de serializare'
+    methods: 'Available methods'
     authentication-providers: 'Furnizorii de autorizaţii sunt disponibili'
-    selected-state: 'Starea selectată'
+    selected-method: 'Selected Method'
     selected-formats: 'Formatele selectate'
     selected-authentication-providers: 'Furnizorii de autorizaţii selectaţi'
+    success: 'Rest ID "%s" enabled'
+    selected-state: 'Starea selectată'

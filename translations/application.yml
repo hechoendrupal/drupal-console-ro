@@ -33,6 +33,10 @@ messages:
         route: 'Pentru a crea pagini, trebuie definite route pentru ele.\nO roută mapează un URL cu un Controller. Acesta stabilește cu ce\nfuncție sau metodă din Clasă va fi apelată când URL-ul este accesat.\nDacă utilizatorul accesează http://drupal8.dev/{{ route }}, sistemul de\nrutare va căuta ruta respectivă din URL. În acest caz acesta va fi găsit\nși va apela executarea \"_controller callback\". În acest caz \"callback\"-ul este\ndefinit în Clasa (\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nși metoda (\"{{ method_name }}\").\n'
     autocomplete: 'Bash sau Zsh: Adăugați această linie în fișierul dvs. de configurare shell:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Creați o legătură simbolică\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n'
     version: '<info>"%s"</info> version <comment>"%s"</comment>'
+    disable:
+        command:
+            error: 'Command: "%s" is deprecated.'
+            extra: 'You must execute: "%s" instead'
     root: 'Definiți rădăcina Drupal ce va fi folosită în execuția comenzilor'
     uri: 'URI-ul sitului Drupal ce va fi folosit (pentru medii multi-sit sau când rulează pe un port alternativ)'
 errors:
@@ -41,8 +45,21 @@ site:
     messages:
         path: 'Calea către site'
     errors:
-        directory: 'Pentru a afișa toate comenzile accesibile, trebuie să rulați această comandă în directorul rădăcină drupal.'
         settings: 'Pentru a afișa toate comenzile accesibile, mai întâi de toate trebuie să instalați Drupal.'
+        directory: 'Pentru a afișa toate comenzile accesibile, trebuie să rulați această comandă în directorul rădăcină drupal.'
+        not-installed: 'Drupal Console is not installed at: %s'
+        execute-composer: 'You must execute the following composer commands:'
+        missing-config-file: 'Missing configuration file, possible paths:'
+        missing-config-file-command: 'Execute "drupal init" command to generate one'
 user:
     messages:
         path: 'Calea către directorul de home al utilizatorului'
+remote:
+    errors:
+        passphrase-missing: 'Passphrase file is missing'
+        passphrase-empty: 'Passphrase file is empty'
+        private-missing: 'Private file is missing'
+        private-empty: 'Private file is empty'
+        private-invalid: 'Private file is invalid'
+        invalid-root: 'Invalid root directory'
+        console-not-found: 'Drupal Console not found on this site'

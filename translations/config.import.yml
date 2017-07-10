@@ -1,11 +1,25 @@
 description: 'Importă configurarea pentru aplicația curentă.'
+options:
+    file: 'Path to an archive file of configuration to import.'
+    directory: 'Path to a directory of configuration to import.'
+    remove-files: 'Remove files after synchronization.'
+messages:
+    config_files_imported: 'Lista tuturor fișierelor de configurare.'
+    imported: 'Toate fișierele de configurare au fost copiate în directorul de așteptare și apoi importate.'
+    importing: 'Importing configuration.'
+    already-imported: 'Another request may be synchronizing configuration already.'
+    nothing-to-do: 'There are no changes to import.'
+    copied: 'Toate fișierele de configurare au fost copiate în directorul de așteptare.'
+examples:
+    -
+        description: 'Provide a configuration file'
+        execution: "drupal config:import \\\n  --file=/path/to/config/file"
+    -
+        description: 'Provide a configuration directory'
+        execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"
 arguments:
     file: 'Calea către fișierul de configurare.'
     directory: 'Path to a directory of configuration to import.'
     remove-files: 'Eliminați fișierele după sincronizare.'
     config-file: 'Calea către fișierul de configurare.'
     copy-only: 'Copiați doar fișierele de configurare în directorul de așteptare.'
-messages:
-    config_files_imported: 'Lista tuturor fișierelor de configurare.'
-    imported: 'Toate fișierele de configurare au fost copiate în directorul de așteptare și apoi importate.'
-    copied: 'Toate fișierele de configurare au fost copiate în directorul de așteptare.'

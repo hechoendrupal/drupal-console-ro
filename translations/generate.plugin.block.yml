@@ -16,6 +16,7 @@ questions:
     plugin-id: 'Introduceți ID-ul pluginului'
     inputs: common.questions.inputs
     services: common.questions.services
+    theme-region: 'Enter the theme region to render the Plugin Block.'
 messages:
     inputs: "\nPuteți adăuga câmpuri pentru a crea configurări specifice blocului.\nAceasta este opțional, tastați <info>enter</info> pentru a <info>continua</info>"
     invalid-theme-region: 'Regiunea "%s" nu este validă'

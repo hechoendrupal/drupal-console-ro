@@ -1,10 +1,22 @@
 description: 'Exportă configurările curente ale aplicației.'
-arguments:
-    directory: 'Indică calea de salvare pentru configurările exportate.'
+options:
+    directory: 'Define the export directory to save the configuration output.'
     tar: 'If set, the configuration will be exported to an archive file.'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 messages:
     directory: 'Fișierul de configurări a fost salvat în "%s"'
     error: 'An error occurred while creating your directory at "%s"'
+examples:
+    -
+        description: 'Optional you can add the path to export'
+        execution: "drupal config:export  \\\n  --directory=\"path/to/export\""
+    -
+        description: 'If export will be in a compressed file and/or if uuid and config hashes will be removed.'
+        execution: "drupal config:export  \\\n  --directory=\"path/to/export\" \\\n  --tar \\\n  --remove-uuid \\\n  --remove-config-hash\n"
+arguments:
+    directory: 'Indică calea de salvare pentru configurările exportate.'
+    tar: 'If set, the configuration will be exported to an archive file.'
 content:
     type:
         description: 'Exportă un anumit tip de conținut și câmpurile aferente.'

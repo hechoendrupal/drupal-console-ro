@@ -1,0 +1,19 @@
+description: 'Afişează rutele curente'
+arguments:
+    route-name: 'Numele rutei'
+messages:
+    name: 'Numele rutei'
+    class: 'Class path'
+    route: Route
+    path: 'Calea spre Clasă'
+    defaults: Implicit
+    requirements: Requirements
+    options: Opţiuni
+    pattern: Tipar
+examples:
+    -
+        description: 'Displays current routes for the application'
+        execution: 'drupal rod'
+    -
+        description: 'Displays details for the route user.page (/user)'
+        execution: 'drupal rod user.page'

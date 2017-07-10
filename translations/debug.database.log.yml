@@ -2,13 +2,15 @@ description: 'Afișează evenimentele curente, de intrare în jurnal, pentru apl
 arguments:
     event-id: 'ID-ul evenimentului DBLog'
 options:
-    type: 'Filtrați evenimentele după un anumit tip'
-    severity: 'Filtrați evenimentele după un anumit nivel de severitate'
-    user-id: 'Filtrați evenimentele după un anumit id de utilizator'
     asc: 'List events in ascending order'
     limit: 'Limitați rezultatele la un anumit număr'
     offset: 'Punctul de început al unei limite'
+    yml: 'Print in a yml style'
+    type: 'Filtrați evenimentele după un anumit tip'
+    severity: 'Filtrați evenimentele după un anumit nivel de severitate'
+    user-id: 'Filtrați evenimentele după un anumit id de utilizator'
 messages:
+    not-found: 'Evenimentul DBLog "%s" nu a fost găsit'
     event-id: 'ID-ul evenimentului'
     type: Tip
     date: Dată
@@ -16,4 +18,3 @@ messages:
     user: Utilizator
     severity: Severitate
     invalid-severity: 'Tipul de severitate nu este valid, filtrul a fost ignorat'
-    not-found: 'Evenimentul DBLog "%s" nu a fost găsit'

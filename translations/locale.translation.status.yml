@@ -15,3 +15,4 @@ messages:
     local-file-not-found: 'Fișierul nu a fost găsit la "%s"'
     translation-not-determined: 'Locația fișierului de traducere nu a putut fi determinată.'
     translation-project-updated: Actualizat
+    translation-project-available: 'New translation available'

@@ -7,3 +7,4 @@ questions:
 messages:
     invalid-rest-id: 'ID-ule resursei "%s" este incorect'
     success: 'Rest ID "%s" disabled'
+    already-disabled: 'Rest ID "%s" was already disabled'

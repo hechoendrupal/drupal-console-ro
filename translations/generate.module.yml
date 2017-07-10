@@ -13,6 +13,7 @@ options:
     composer: 'Adaugă un fișier composer.json'
     dependencies: 'Dependințele modulului trebuie să fie separate prin virgulă (ex. context, panels)'
     test: 'Generează o clasă pentru testare'
+    twigtemplate: 'Generate theme template'
     controller: 'Controller-ul implicit'
 questions:
     module: 'Introduceți numele noului modul'
@@ -27,6 +28,7 @@ questions:
     composer: 'Doriți să adăugați un fișier composer.json la modul'
     dependencies: 'Doriți să adăugați dependințe pentru modul'
     test: 'Doriți să generați o clasă pentru "unit test"'
+    twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Doriți să generați un Controller implicit'
 warnings:
     module-unavailable: 'Avertizare! Următoarele module nu sunt disponibile în proiectul tău local "%s"'

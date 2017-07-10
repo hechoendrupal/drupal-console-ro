@@ -1,4 +1,5 @@
 description: 'Afişează Modulele curente pentru aplicaţie'
+module: 'Module name'
 options:
     status: 'Starea Modulului [activat|dezactivat]'
     type: 'Tipul Modulului [core|no-core]'
@@ -18,3 +19,10 @@ messages:
     no-results: 'Module "%s" was not found in the repository'
     enabled: Activat
     disabled: Dezactivat
+examples:
+    -
+        description: 'Display all installed modules'
+        execution: 'drupal mod --status=installed'
+    -
+        description: 'Display all installed and no core modules'
+        execution: 'drupal mod --status=installed --type=no-core'

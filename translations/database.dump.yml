@@ -3,5 +3,13 @@ arguments:
     database: 'Cheia bazei de date din fișierul settings.php'
 options:
     file: 'Numele fișierului pentru backup-ul bazei dvs. de date'
+    gz: 'Pass this option if you want the sql result file gzipped'
 messages:
     success: 'Baza de date a fost exportată la:'
+examples:
+    -
+        description: 'Dump default database or the one specified on the argument'
+        execution: "drupal database:dump \\\n  <database>"
+    -
+        description: 'Dump in gz compressed format'
+        execution: "drupal database:dump \\\n  --gz"

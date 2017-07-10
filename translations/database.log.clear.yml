@@ -9,3 +9,10 @@ messages:
     event-deleted: 'Evenimentul "%s" a fost șters'
     clear-error: 'Procesul de curățare a eșuat, vă rugăm să verificați filtrele folosite'
     clear-sucess: 'Procesul de curățare al evenimentelor s-a terminat cu succes'
+examples:
+    -
+        description: 'Clear the database log from DBLog table'
+        execution: "drupal database:log:clear \\\n  <database>"
+    -
+        description: 'Clear the database log from DBLog table using filters'
+        execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

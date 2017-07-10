@@ -6,3 +6,7 @@ messages:
     database-not-supported: 'Tipul bazei de date "%s" nu are suport încă'
     database-client-not-found: 'Clientul bazei de date "%s" nu a fost găsit'
     connection: 'Conexiune: "%s"'
+examples:
+    -
+        description: 'Connects to an specified database, or the default if not arguments passed'
+        execution: "drupal database:connect \\\n  <database>\n"
