@@ -8,9 +8,10 @@ options:
     format: 'Formatul de afișare (txt, xml, json, sau md)'
 messages:
     usage: '<comment>Folosire:</comment>\n'
-    usage_details: 'comanda [options] [arguments]\n\n'
+    usage-details: "  command [options] [arguments]\n\n"
     arguments: '<comment>Argumente:</comment>'
     options: '<comment>Opțiuni:</comment>'
     help: '<comment>Ajutor:</comment>'
     comment: '<comment>Comenzi disponibile pentru "%s" spațiul de lucru:</comment>'
     available-commands: '<comment>Comenzi disponibile:</comment>'
+    usage_details: 'comanda [options] [arguments]\n\n'

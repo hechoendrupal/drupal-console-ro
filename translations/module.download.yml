@@ -19,6 +19,7 @@ messages:
     no-composer-repo: 'Please, configure Composer in ~/.console/config.yml'
     composer: 'Module "%s" was downloaded successfully using Composer'
     installed: 'Modulul "%s" a fost instalat cu succes'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download module specifying module name and its path'
+        execution: "drupal module:download  modulename  \\\n  --path=\"modules/contrib\"\n"

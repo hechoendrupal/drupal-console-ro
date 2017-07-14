@@ -13,3 +13,7 @@ questions:
     label: 'Introduceți eticheta extensiei'
     plugin-id: 'Introduceți ID-ul extensiei'
     field-type: 'Introduceți tipul câmpului cu, care extensia poate fi folosită'
+examples:
+    -
+        description: 'Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type'
+        execution: "drupal generate:plugin:fieldwidget  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldWidget\"  \\\n  --label=\"Example field widget\"  \\\n  --plugin-id=\"example_field_widget\"  \\\n  --field-type=\"text\"\n"

@@ -11,3 +11,7 @@ questions:
     bundle-title: 'Introduceți numele lizibil pentru noul dumneavoastră tip de conținut.'
 message:
     error-state1: substituent
+examples:
+    -
+        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

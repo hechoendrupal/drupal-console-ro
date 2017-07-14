@@ -1,3 +1,10 @@
 description: 'Dezactivează un View'
 messages:
     disabled-successfully: 'View-ul "%s" a fost dezactivat cu succes.'
+examples:
+    -
+        description: 'Disable content view'
+        execution: "drupal views:disable  content\n"
+    -
+        description: 'Disable frontpage view'
+        execution: "drupal views:disable  frontpage\n"

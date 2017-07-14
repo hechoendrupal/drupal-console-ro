@@ -16,3 +16,10 @@ messages:
     error-copying-file: 'Eroare la copierea fişierului.'
     error-writing-file: 'Eroare la scrierea fişierului.'
     services-file-overwritten: 'Fişierele serviciului "%s" au fost rescrise.'
+examples:
+    -
+        description: 'Switch system to prod'
+        execution: 'drupal site:mode  prod'
+    -
+        description: 'Switch system to dev'
+        execution: "drupal site:mode  dev\n"
