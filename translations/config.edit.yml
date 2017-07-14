@@ -6,6 +6,7 @@ questions:
     config-name: 'Alegeți o unitate de configurare'
 messages:
     no-directory: 'A apărut o eroare în timpul creării directorului la'
+    choose-configuration: 'Choose a configuration'
 examples:
     -
         description: 'Edit system cron configurations with "vim" (default editor).'
