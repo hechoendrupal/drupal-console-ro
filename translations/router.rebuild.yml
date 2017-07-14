@@ -4,3 +4,7 @@ arguments:
 messages:
     rebuilding: 'Reconstruirea rutelor este în desfăşurare, aşteptaţi...'
     completed: 'Reconstruirea rutelor a fost finalizată cu succes.'
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'

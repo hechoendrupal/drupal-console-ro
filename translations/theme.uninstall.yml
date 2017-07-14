@@ -18,3 +18,7 @@ messages:
     invalid-theme-default: 'Opțiunea de a fi implicită este valabilă doar pentru o singură temă'
     error-default-theme: 'Tema "%s" este tema implicită și nu poate fi dezinstalată.'
     error-admin-theme: 'Tema "%s" este tema de administrare și nu poate fi dezinstalată.'
+examples:
+    -
+        description: 'Uninstall theme specifying the name'
+        execution: "drupal theme:uninstall  mytheme\n"

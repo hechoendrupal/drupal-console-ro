@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: 'Doriți să generați structura unui formular'
         label: 'Introduceți eticheta'
-        machine_name: 'Introduceți numele mașină'
+        machine-name: 'Input machine name'
         permission: 'Doriți să generați permisiuni'
         type: Tip
         invalid: 'Tipul câmpului "%s" este incorect.'
@@ -34,6 +34,7 @@ questions:
         weight: 'Greutatea elementului introdus'
         title: Titlu
         fieldset: Fieldset
+        machine_name: 'Introduceți numele mașină'
 errors:
     module-dependency: 'Lipsesc dependințele modulului "%s"'
     class-name-empty: 'Numele Clasei nu poate fi lăsat necompletat'

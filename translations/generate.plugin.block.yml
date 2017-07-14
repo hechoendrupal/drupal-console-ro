@@ -20,3 +20,7 @@ questions:
 messages:
     inputs: "\nPuteți adăuga câmpuri pentru a crea configurări specifice blocului.\nAceasta este opțional, tastați <info>enter</info> pentru a <info>continua</info>"
     invalid-theme-region: 'Regiunea "%s" nu este validă'
+examples:
+    -
+        description: 'Generate a plugin block in the header region with an input field specifying the module name, the class, the label, its id, the region and the input'
+        execution: "drupal generate:plugin:block  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultBlock\"  \\\n  --label=\"Default block\"  \\\n  --plugin-id=\"default_block\"  \\\n  --theme-region=\"header\"  \\\n  --inputs='\"name\":\"inputtext\", \"type\":\"text_format\", \"label\":\"InputText\", \"options\":\"\", \"description\":\"Just an input text\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'"

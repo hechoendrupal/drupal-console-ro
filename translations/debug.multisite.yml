@@ -5,3 +5,7 @@ messages:
     site: Sit
     directory: Director
     site-format: 'Siturile sunt scrise folosind formatul: <port>.<domain>.<path>'
+examples:
+    -
+        description: 'Displays multisite information'
+        execution: "drupal debug:multisite\n"

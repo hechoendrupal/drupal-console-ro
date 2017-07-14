@@ -2,7 +2,7 @@ description: 'Vizualizează statutul de instalare (Drupal Installation status)'
 messages:
     application: Aplicaţie
     system: 'Informaţii de sistem'
-    hash_salt: 'Hash salt'
+    hash-salt: 'Hash salt'
     console: 'Versiunea consolei'
     database: 'Conexiune la baza de date'
     driver: Driver
@@ -12,9 +12,18 @@ messages:
     password: Parola
     theme: Teme
     connection: Conexiune
+    theme-default: 'Default theme'
+    theme-admin: 'Admin theme'
+    directory: Director
+    directory-root: 'Site root directory'
+    directory-temporary: 'Site temporary directory'
+    directory-theme-default: 'Default theme directory'
+    directory-theme-admin: 'Admin theme directory'
+    current-version: 'Current Drupal ("%s")'
+    not-installed: 'Drupal is not installed'
+    hash_salt: 'Hash salt'
     theme_default: 'Tema implicită'
     theme_admin: 'Tema de administrare'
-    directory: Director
     directory_root: 'Directorul de baza al saitului'
     directory_temporary: 'Directorul temporar al saitului'
     directory_theme_default: 'Directorul temei implicite'
@@ -27,3 +36,7 @@ messages:
     staging: 'Calea către configurările în aşteptare'
     themes: Teme
     directories: Directoare
+examples:
+    -
+        description: 'Get drupal installation status specifying the output format as table'
+        execution: "drupal site:status  \\\n  --format=\"table\"\n"

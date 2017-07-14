@@ -13,6 +13,7 @@ messages:
     select-release: 'Vă rugăm să selectați varianta de lansare preferată de dvs.'
     outside-drupal: 'Calea rădăcinii Drupal nu poate fi determinată. Folosiți --root pentru a seta destinația, folderul curent va fi folosit în loc de.'
     error-creating-folder: 'Eroare la crearea folderului "%s", vă rugăm să vă verificați permisiunile'
-tips:
+examples:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        description: 'Download theme specifying name and version'
+        execution: "drupal theme:download  Alina 7.x-1.2\n"

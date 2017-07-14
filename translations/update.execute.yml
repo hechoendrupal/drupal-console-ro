@@ -6,3 +6,7 @@ messages:
     executing-update: 'Se execută funcţia de actualizare "%s" a modulului "%s"'
     module-update-function-not-found: 'Modulul "%s" nu are o funcţie de actualizare pentru "%s"'
     executing-required-previous-updates: 'Executarea actualizărilor anterioare necesare'
+examples:
+    -
+        description: 'Update all entities'
+        execution: "drupal update:execute\n"

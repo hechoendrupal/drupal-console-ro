@@ -6,3 +6,10 @@ messages:
     maintenance-off: 'Modul de mentenanţă dezactivat'
 errors:
     invalid-mode: 'Modul de mentenanţă incorect'
+examples:
+    -
+        description: 'Switch on maintenance'
+        execution: 'drupal site:maintenance  on'
+    -
+        description: 'Switch off maintenance'
+        execution: "drupal site:maintenance  off\n"

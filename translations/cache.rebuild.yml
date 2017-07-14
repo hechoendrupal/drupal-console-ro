@@ -5,6 +5,7 @@ messages:
     welcome: 'Bine ați venit în cache:comanda de rebuild'
     rebuild: 'Cache-ul se reconstruiește, vă rugăm să așteptați.'
     completed: 'Cache-ul a fost curățat!'
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: 'Cache-ul "%s" nu este valid.'
 questions:
     cache: 'Selectează cache-ul.'

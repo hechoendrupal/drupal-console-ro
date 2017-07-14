@@ -13,3 +13,7 @@ questions:
     label: 'Introduceți eticheta extensiei'
     plugin-id: 'Introduceți ID-ul extensiei'
     field-type: 'Introduceți tipul câmpului cu, care extensia poate fi folosită'
+examples:
+    -
+        description: 'Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type'
+        execution: "drupal generate:plugin:fieldformatter  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldFormatter\"  \\\n  --label=\"Example field formatter\"  \\\n  --plugin-id=\"example_field_formatter\"  \\\n  --field-type=\"text\"\n"
