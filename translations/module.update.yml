@@ -1,14 +1,14 @@
-description: 'Update core, module or modules in the application'
+description: 'Update la core, modul sau module din aplicație'
 arguments:
-    module: 'Module or modules to be updated should be separated by a space. Leave empty for updating the core and all your modules managed by Composer.'
+    module: 'Modulul sau modulele care vor fi actualizate trebuie separate de un spațiu. Lăsați gol pentru a actualiza core-ul și toate modulele gestionate de Composer.'
 options:
-    composer: 'Update the module using Composer'
-    simulate: 'Simulate the update process with Composer'
+    composer: 'Actualizați modulul cu Composer'
+    simulate: 'Simulați procesul actualizării cu Composer'
 questions:
-    module: 'Module name (press <return> to stop adding modules)'
-    invalid-module: 'Invalid module "%s"'
+    module: 'Numele modulului (apăsați <return> pentru a nu mai adăuga module)'
+    invalid-module: 'Modul invalid "%s"'
 messages:
-    success: 'The following module(s) were installed successfully: "%s"'
-    composer: 'The module "%s" was installed successfully with Composer'
-    only-composer: 'This command only updates modules via Composer. Use --composer option.'
-    missing-module: 'Enter a module(s) name(s) to update.'
+    success: 'Următoarele module au fost instalate cu succes: "%s"'
+    composer: 'Modulul "%s" a fost instalat cu succes prin Composer'
+    only-composer: 'Această comandă actualizează module doar prin composer. Folosiți --composer option.'
+    missing-module: 'Introduceți numele modulului / modulelelor pentru actualizare.'
