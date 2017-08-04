@@ -1,13 +1,13 @@
-description: 'Descarcă modulul sau modulele pentru aplicație'
+﻿description: 'Descarcă modulul sau modulele pentru aplicație'
 arguments:
-    module: 'Module or modules to be enabled should be separated by a space'
+    module: 'Modulul sau modulele activate trebuie să fie separate de un spațiu'
 options:
-    latest: 'Default to download most recent version'
-    path: 'The path of the contrib project'
-    composer: 'Option to point out that the module will be downloaded, managed & installed by Composer'
+    latest: 'Mod default pentru a descărca cea mai recentă versiune'
+    path: 'Calea către proiectul contrib'
+    composer: 'Opțiune care arată că modulul va fi descărcat, gestionat și instalat de Composer'
     version: 'Versiunea modulului (ex.: 1.x-dev)'
 questions:
-    path: 'Enter the contrib project Path'
+    path: 'Introduceți calea către proiectul contrib'
 messages:
     no-releases: 'Nu există nici o versiune pentru modulul "%s"'
     getting-releases: 'Obținerea versiunilor pentru modulul "%s"'
@@ -16,9 +16,9 @@ messages:
     select-release: 'Vă rugăm să selectați versiunea dorită'
     outside-drupal: 'Rădăcina Drupal nu poate fi determinată. Folosiți --root pentru a seta destinația, folderul curent va fi folosit în loc de.'
     error-creating-folder: 'Eroare la crearea folderului "%s", vă rugăm să vă verificați permisiunile'
-    no-composer-repo: 'Please, configure Composer in ~/.console/config.yml'
-    composer: 'Module "%s" was downloaded successfully using Composer'
+    no-composer-repo: 'Vă rugăm configurați Composer in ~/.console/config.yml'
+    composer: 'Modulul "%s" a fost descărcat cu succes folosind Composer'
     installed: 'Modulul "%s" a fost instalat cu succes'
 tips:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        tip: 'Treceți o valoare «true» la cheia «shellexec_output» în fișierul config.yml pentru a vedea output-ul Composer-ului în mod interactiv sau treceți valoarea «false» ca să îl ascundeți'
