@@ -1,6 +1,6 @@
-description: 'Returns the relative path to the module (or absolute path)'
+description: 'Întoarce calea relativă la modul (sau calea absolută)'
 arguments:
-    module: 'The Module name (machine name)'
+    module: 'Numele modulului (numele mașinii)'
 options:
-    absolute: 'Return module absolute path'
+    absolute: 'Întoarce calea relativă la modul (sau calea absolută)'
 messages: null
