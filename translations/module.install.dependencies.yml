@@ -1,7 +1,7 @@
-description: 'Install dependencies module in the application'
+description: 'Instalați modulul dependințelor din aplicație'
 arguments:
-    module: 'Module or modules to be enabled should be separated by a space'
+    module: 'Modulul sau modulele activate trebuie să fie separate de un spațiu'
 messages:
-    no-depencies: 'Nothing to do. This modules has not dependencies to install'
-    installing: 'Installing module(s) "%s"'
-    success: 'The following module(s) were installed successfully: "%s"'
+    no-depencies: 'Nimic de făcut. Modulele nu au dependințe de instalat'
+    installing: 'Se instalează modulul / modulele "%s"'
+    success: 'Modulul / modulele următoare au fost instalate cu succes: "%s"'
