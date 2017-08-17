@@ -1,14 +1,14 @@
-description: 'Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.'
-help: "List all plugin types:\n<info>drupal plugin:debug</info>\n\nList all instances of the image effect plugin type:\n<info>drupal plugin:debug image.effect</info>\n\nShow the definition for the image convert plugin:\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment>NOTE: Only plugin types exposed through services are supported.</comment> When developing a custom plugin type, expose it as a service by adding it to modulename.services.yml with the name \"plugin.manager.PLUGIN_TYPE\".\n"
+description: 'Afișează toate tipurile de plugin: instanțe de plugin de un anumit tip sau definiția pentru un plugin specific.'
+help: "Listează toate tipurile de plugin:\n<info>drupal plugin:debug</info>\n\n Listează toate instanțele pentru un plugin de tip image effect:\n<info>drupal plugin:debug image.effect</info>\n\n Arată definiția pentru plugin de tip image convert:\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment>NOTĂ: Doar tipurile de plugin expuse prin servicii sunt suportate.</comment> Atunci când se implementează un plugin custom, trebuie setată expunerea ca serviciu prin adăugarea lui la modulename.services.yml cu numele de \"plugin.manager.PLUGIN_TYPE\".\n"
 arguments:
-    type: 'Plugin type'
-    id: 'Plugin ID'
+    type: 'Tipul plugin-ului'
+    id: 'ID-ul plugin-ului'
 errors:
-    plugin-type-not-found: 'Plugin type "%s" not found. No service available for that type.'
+    plugin-type-not-found: 'Tipul de plugin "%s" nu a fost găsit. Nu există nici un serviciu pentru acest tip.'
 table-headers:
-    plugin-type-name: 'Plugin type'
-    plugin-type-class: 'Plugin manager class'
-    plugin-id: 'Plugin ID'
-    plugin-class: 'Plugin class'
-    definition-key: Key
-    definition-value: Value
+    plugin-type-name: 'Tipul plugin-ului'
+    plugin-type-class: 'Clasa manager a plugin-ului'
+    plugin-id: 'ID-ul plugin-ului'
+    plugin-class: 'Clasa plugin-ului'
+    definition-key: Cheie
+    definition-value: Valoare
