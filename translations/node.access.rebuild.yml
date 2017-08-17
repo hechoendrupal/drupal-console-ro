@@ -4,7 +4,7 @@ options:
 messages:
     rebuild: 'Se reconstruiesc permisiunile accesului la noduri. Un moment, vă rog.'
     completed: 'Reconstruirea permisiunior este gata.'
-    failed: 'Reconstruirea permisiunilor nu a fost făcută.'
+    failed: 'Reconstruirea permisiunilor nu a fost făcută cu succes.'
 examples:
     -
         description: 'Reconstruiește permisiunile accesului la noduri'
