@@ -1,24 +1,24 @@
-description: "Sets up the files for a new multisite install."
-help: "The <info>multisite:new</info> command assists in setting up new multisite installs by creating the needed subdirectory and files, and can optionally copy an existing 'default' installation."
+description: "Pregătește fișierele pentru o nouă instalare multisite."
+help: "Comanda <info>multisite:new</info> ajută la instalarea unui nou multisite prin crearea necesară a fișierelor și subdirectoarelor și poate copia (opțional) o instalare 'default' deja existentă."
 arguments:
-    sites-subdir: "Name of directory under 'sites' which should be created."
+    sites-subdir: "Numele directorului 'sites' care trebuie creat."
 options:
-    site-uri: "Site URI to add to sites.php."
-    copy-install: "Copies existing site from the default install."
+    site-uri: "URI-ul site-ului de adăugat la sites.php."
+    copy-install: "Copiază site-ul existent din instalarea default."
 errors:
-    subdir-empty: "You must specify a multisite subdirectory to create."
-    subdir-exists: 'The sites/"%s" directory already exists.'
-    default-missing: "The sites/default directory is missing."
-    mkdir-fail: 'Unable to create sites/"%s". Please check the sites directory permissions and try again.'
-    sites-invalid: "The sites.php file located is either not readable or not a file."
-    sites-missing: "No sites.php or example.sites.php to copy from."
-    sites-other: "A problem was encountered when attempting to write sites.php"
-    file-missing: 'The file "%s" was not found for copying.'
-    copy-fail: 'Unable to copy "%s" to "%s". Please check the permissions and try again.'
-    write-fail: 'Unable to write to the file "%s". Please check the file permissions and try again.'
-    chmod-fail: 'Unable to change permissions on the file "%s". Please ensure that the permissions on that file are correct.'
+    subdir-empty: "Trebuie să specificați un subdirector multisite pentru a-l crea."
+    subdir-exists: 'Directorul/"%s" există deja.'
+    default-missing: "Directorul default lipsește."
+    mkdir-fail: 'sites/"%s" nu poate fi creat. Vă rugăm verificați permisiunile directorului și încercați din nou.'
+    sites-invalid: "Fișierul sites.php localizat nu este descifrabil sau nu este un fișier."
+    sites-missing: "Nu există sites.php sau example.sites.php din care să se copieze."
+    sites-other: "O problemă a fost identificată la scrierea sites.php"
+    file-missing: 'Fișierul "%s" nu a fost găsit pentru copiere.'
+    copy-fail: '"%s" nu a putut fi copiat în "%s". Vă rugăm verificați permisiunile și încercați din nou.'
+    write-fail: 'Nu se poate scrie în fișierul "%s". Vă rugăm verificați permisiunile și încercați din nou.'
+    chmod-fail: 'Nu se pot schimba permisiunile pentru fișierul "%s". Vă rugăm asigurați-vă că permisiunile la acest fișier sunt corecte.'
 warnings:
-    missing-files: "No sites/default/files directory found. The files directory will need to be created by hand."
+    missing-files: "Nu au fost găsite site-uri/default/directorii ale fișierelor. Directorul fișierelor trebuie creat manual."
 messages:
-    copy-install: 'The default install was successfully copied to sites/"%s".'
-    fresh-site: 'The new multisite structure was successfully created at sites/"%s" and is ready for installation.'
+    copy-install: 'Instalarea default a fost copiată  cu succes în sites/"%s".'
+    fresh-site: 'Structura nouă multisite a fost creată cu succes la sites/"%s" și este gata de instalat.'
