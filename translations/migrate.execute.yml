@@ -1,4 +1,4 @@
-description: 'Execută o migraţie disponibilă pentru aplicaţie'
+﻿description: 'Execută o migraţie disponibilă pentru aplicaţie'
 arguments:
     id: 'ID-ul migraţiei'
 options:
@@ -27,7 +27,7 @@ questions:
 messages:
     processing: 'Migraţia "%s" se prelucrează'
     imported: 'Migraţia "%s" a fost importată corect'
-    fail-load: 'Migraţia "%s" nu poate fi încarcată'
+    fail-load: 'Migraţia "%s" nu poate fi încărcată'
     importing-incomplete: 'Migraţia "%s" se importă'
     import-stopped: 'Operaţia de importare "%s" a fost oprită'
     import-fail: 'Operaţia de importare "%s" a eşuat'
