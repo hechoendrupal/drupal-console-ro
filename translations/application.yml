@@ -1,6 +1,6 @@
 options:
     env: 'Numele mediului de lucru.'
-    no-debug: 'Oprește modul de depanare.'
+    debug: 'Switches on debug mode'
     learning: 'Generarea unui cod verbal.'
     generate-chain: 'Printează opțiunile și argumentele de execuție în format yaml pentru a fi folosit în comandă înlănțuită'
     generate-inline: 'Printează opțiunile și argumentele de execuție în apel inline pentru a fi folosit pe viitor'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Disable ANSI output'
     no-interaction: 'Do not ask any interactive question'
     check-fix: 'Attempt to fix any missing configuration.'
+    no-debug: 'Oprește modul de depanare.'
 arguments:
     command: 'The command to execute'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: 'Fișiere generate sau actualizate'
         copied: 'Fișiere copiate'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: 'Pentru a crea pagini, trebuie definite route pentru ele.\nO roută mapează un URL cu un Controller. Acesta stabilește cu ce\nfuncție sau metodă din Clasă va fi apelată când URL-ul este accesat.\nDacă utilizatorul accesează http://drupal8.dev/{{ route }}, sistemul de\nrutare va căuta ruta respectivă din URL. În acest caz acesta va fi găsit\nși va apela executarea \"_controller callback\". În acest caz \"callback\"-ul este\ndefinit în Clasa (\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\nși metoda (\"{{ method_name }}\").\n'
     autocomplete: 'Bash sau Zsh: Adăugați această linie în fișierul dvs. de configurare shell:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Creați o legătură simbolică\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n'
@@ -42,6 +45,9 @@ messages:
 errors:
     invalid-command: 'Comanda "%s" nu este definită.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'Calea către site'

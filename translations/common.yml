@@ -22,6 +22,9 @@ questions:
         confirm: 'Doriți să încărcați serviciile din container'
         message: '\nIntroduceți numele serviciului sau utilizați keyup / keydown pentru a-l selecta.\nAceasta este opțional, tastați <info>enter</info> pentru a <info>continua</info>\n'
         name: 'Introduceți serviciul dvs.'
+    roles:
+        message: "\nType the role name or use keyup or keydown.\nThis is optional, press <info>enter</info> to <info>continue</info>\n"
+        name: 'Enter your role'
     inputs:
         confirm: 'Doriți să generați structura unui formular'
         label: 'Introduceți eticheta'
@@ -34,6 +37,7 @@ questions:
         weight: 'Greutatea elementului introdus'
         title: Titlu
         fieldset: Fieldset
+        new-field: 'Enter a new field properties'
         machine_name: 'Introduceți numele mașină'
 errors:
     module-dependency: 'Lipsesc dependințele modulului "%s"'
@@ -49,3 +53,4 @@ messages:
     drupal-core: 'Nucleu Drupal'
     move-phar: 'Accessing console from anywhere on your system'
     quick-start: 'Download, install and serve Drupal 8'
+    available-field-types: 'Available types: <comment>%s</comment>'

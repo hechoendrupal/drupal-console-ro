@@ -1,11 +1,13 @@
 description: 'Dezinstalează un modul sau mai multe din aplicaţie.'
+arguments:
+    module: 'Module or modules to be uninstalled should be separated by a space'
 questions:
     module: 'Enter module name'
     invalid-module: 'Invalid module "%s"'
 options:
-    module: 'Modulul sau modulele care urmează a fi dezinstalate ar trebui separate de o virgulă'
     force: 'Do you want to ignore dependencies and forcefully uninstall the module?'
     composer: 'Uninstalls the module using Composer'
+    module: 'Modulul sau modulele care urmează a fi dezinstalate ar trebui separate de o virgulă'
 messages:
     no-modules: 'Trebuie să introduceți un modul sau mai multe pentru a le dezinstala.'
     dependents: 'Modulele "%s" nu pot fi dezinstalate deoarece sunt necesare pentru "%s"'

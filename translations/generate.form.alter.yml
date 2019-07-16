@@ -1,7 +1,18 @@
 description: 'Generează o implementare a hook_form_alter() sau hook_form_FORM_ID_alter()'
 help: 'Comanda <info>"%s"</info> vă va ajuta să generați un nou "%s"'
+welcome: 'Welcome to the Drupal Form Alter generator'
 options:
+    module: 'The Module name.'
     form-id: 'ID-ul formularului de alterat'
+    inputs: 'Create inputs in a form.'
+questions:
+    module: 'Enter the module name'
+    form-id: 'Enter the Form ID to alter'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
 messages:
     inputs: "Puteți adăuga câmpuri noi în scopul de a modifica structura formularului.\nAceasta este opțional, apăsați <info>enter</info> pentru a <info>continua</info>"
     loading-forms: 'Încărcați definițiile formularelor din modulul Webprofiler'

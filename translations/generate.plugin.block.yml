@@ -4,19 +4,27 @@ welcome: 'Bine ați venit la generatorul de plugin-uri de tip bloc Drupal'
 options:
     module: common.options.module
     class: 'Numele clasei pluginului'
-    label: 'Eticheta pluginului'
+    plugin-label: 'Plugin label'
     plugin-id: 'ID-ul pluginului'
     inputs: common.options.inputs
     services: common.options.services
     theme-region: 'Regiunea temei unde va fi randat Pluginul de tip bloc'
+    twigtemplate: 'Generate theme template'
+    label: 'Eticheta pluginului'
 questions:
     module: common.questions.module
     class: 'Introduceți numele clasei pluginului'
-    label: 'Introduceți eticheta pluginului'
+    plugin-label: 'Enter the plugin label'
     plugin-id: 'Introduceți ID-ul pluginului'
-    inputs: common.questions.inputs
     services: common.questions.services
     theme-region: 'Enter the theme region to render the Plugin Block.'
+    type: 'Enter New field type'
+    label: 'Introduceți eticheta pluginului'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
+    twigtemplate: 'Do you want to generate a themeable template?'
+    inputs: common.questions.inputs
 messages:
     inputs: "\nPuteți adăuga câmpuri pentru a crea configurări specifice blocului.\nAceasta este opțional, tastați <info>enter</info> pentru a <info>continua</info>"
     invalid-theme-region: 'Regiunea "%s" nu este validă'

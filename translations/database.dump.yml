@@ -1,9 +1,11 @@
 description: 'Descărcați structura și conținutul bazei de date MySQL și tabelele acesteia'
 arguments:
     database: 'Cheia bazei de date din fișierul settings.php'
+    target: 'Database target from settings.php'
 options:
     file: 'Numele fișierului pentru backup-ul bazei dvs. de date'
     gz: 'Pass this option if you want the sql result file gzipped'
+    exclude-cache: 'Pass this option if you want to exclude cache tables.'
 messages:
     success: 'Baza de date a fost exportată la:'
 examples:

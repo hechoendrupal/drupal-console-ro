@@ -30,6 +30,8 @@ questions:
     test: 'Doriți să generați o clasă pentru "unit test"'
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Doriți să generați un Controller implicit'
+suggestions:
+    my-awesome-module: 'My Awesome Module'
 warnings:
     module-unavailable: 'Avertizare! Următoarele module nu sunt disponibile în proiectul tău local "%s"'
 errors:

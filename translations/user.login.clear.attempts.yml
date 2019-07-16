@@ -1,8 +1,9 @@
 description: 'Şterge autentificările eşuate pentru un cont.'
 help: 'Resetați încercările de conectare eșuate <info>user:login:clear:attempts</info> pentru un cont.'
-options:
-    user-id: 'ID utilizator.'
+arguments:
+    user: 'User name/id.'
 questions:
+    user: 'Enter User name/id'
     uid: 'Introduceţi ID-ul utilizatorului.'
     numeric-uid: 'ID-ul trebuie să fie un număr întreg.'
     invalid-uid: 'ID-ul utilizatorului trebuie să fie mai mare decât zero.'

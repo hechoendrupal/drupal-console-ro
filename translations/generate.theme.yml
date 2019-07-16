@@ -10,7 +10,9 @@ options:
     package: Pachetul
     composer: 'Adaugă un fişier composer.json'
     base-theme: 'Tema de bază (ex.: classy, stable)'
+    base-theme-regions: 'Add the default regions of the chosen base theme'
     global-library: 'Numele librariei de stilizare globală'
+    libraries: Libraries
     regions: Regiuni
     breakpoints: 'Puncte de întrerupere'
     base_theme: 'Tema de bază (ex.: classy, stable)'
@@ -38,6 +40,9 @@ questions:
     breakpoint-weight: 'Introduceţi greutatea punctului de întrerupere.'
     breakpoint-multipliers: 'Introduceţi multiplicatorul punctului de întrerupere.'
     breakpoint-add: 'Doriţi să mai adăugaţi un punct de întrerupere?'
+suggestions:
+    my-awesome-theme: 'My Awesome theme'
+    other: Other
 warnings:
     module-unavailable: 'Atenţie. Următoarele module nu sunt înca disponibile în mediul dumneavoastră local: "%s"'
 errors:
