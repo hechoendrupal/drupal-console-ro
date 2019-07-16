@@ -31,6 +31,8 @@ questions:
     field-type: 'Introduceți tipul de câmp cu, care pot fi folosite formatarea si widgetul'
     default-widget: 'Introduceți widget-ul predefinit al extensiei de tip câmp'
     default-formatter: 'Introduceți formatarea predefinită pentru extensia de tip câmp'
+suggestions:
+    my-field-type: 'My Field Type'
 examples:
     -
         description: 'Generate field type, widget and formatter plugins specifying the module name, the type (class, label, plugin id and description), the formatter (class, label, plugin id) and the widget (class, label and plugin id)'

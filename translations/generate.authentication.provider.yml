@@ -1,7 +1,11 @@
 description: 'Generează un "Authentication Provider"'
 help: 'Comanda <info>generate:authentication:provider</info> vă va ajuta să generați un nou "Authentication Provider".'
+welcome: 'Welcome to the Drupal Authentication Provider generator'
 options: 'null'
-module: common.options.module
+questions:
+    module: 'Enter the module name'
+    class: 'Enter the Authentication Provider class'
+    provider-id: 'Enter the Provider ID'
 examples:
     -
         description: 'Generate an authentication provider specifying the module, the class and the provider id'

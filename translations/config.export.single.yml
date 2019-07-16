@@ -1,8 +1,6 @@
 description: 'Exportați o configurare unică ca și un fișier yml .'
-arguments:
-    name: 'Configuration name.'
-    config-name: 'Numele configurării.'
 options:
+    name: 'Configuration name.'
     include-dependencies: 'Export dependencies of the configuration as well.'
     simple-configuration: 'Configurare unică'
     optional: 'Export config as an optional YAML configuration in your module'

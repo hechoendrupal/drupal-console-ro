@@ -1,12 +1,24 @@
 description: 'Execută o funcţie specifică Update N dintr-un modul sau execută-le pe toate'
-options:
-    update-n: 'Funcţia specifică Update N care va fi executată'
+questions:
+    update: 'Do you want to run the specified pending updates?'
+    post-update: 'Do you want to run the specified pending post updates?'
+arguments:
+    module: 'Module name'
+    update-n: 'Specific Update N function to be executed'
 messages:
     no-module-updates: 'Nu sunt actualizări disponibile pentru modulul "%s"'
     executing-update: 'Se execută funcţia de actualizare "%s" a modulului "%s"'
+    executing-post-update: 'Executing post update function "%s" of module "%s"'
     module-update-function-not-found: 'Modulul "%s" nu are o funcţie de actualizare pentru "%s"'
     executing-required-previous-updates: 'Executarea actualizărilor anterioare necesare'
+    no-pending-updates: 'There aren''t updates available'
+    no-pending-post-updates: 'There aren''t post updates available'
+    pending-post-updates: 'There are the following post updates available:'
+    pending-updates: 'There are the following updates available:'
 examples:
     -
         description: 'Update all entities'
         execution: "drupal update:execute\n"
+    -
+        description: 'Execute updates for system module'
+        execution: "drupal update:execute system\n"

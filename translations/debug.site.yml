@@ -4,10 +4,12 @@ messages:
     site: Sit
     host: Gazdă
     root: Rădăcină
-    not-sites: 'No sites defined'
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'Invalid site name'
     private-key: 'Eroare la cheia privată'
     connect-error: 'Eroare la conectarea la mașina aflată la distanță'
+    not-sites: 'No sites defined'
     directory-not-found: 'Directorul local al sitului nu a fost găsit'
 options:
     target: Target

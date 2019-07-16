@@ -2,6 +2,7 @@ description: 'Instalează un proiect Drupal'
 arguments:
     profile: 'Profilul Drupal care va fi instalat'
     langcode: 'Limba proiectului'
+    db-url: 'Use Database url to the installation instead of using the options. (Sqlite is not supported)'
     db-type: 'Tipul bazei de date care va fi folosit la instalarea proiectului'
     db-file: 'Drupal Database file to be used in install'
     site-name: 'Numele sitului drupal'
@@ -9,6 +10,7 @@ arguments:
     account-name: 'Numele de utilizator al administratorului sitului'
     account-mail: 'Adresa de email a administratorului sitului'
     account-pass: 'Parola administratorului sitului'
+    force: 'Force to reinstall the site'
 questions:
     profile: 'Selectaţi profilul Drupal care va fi instalat'
     langcode: 'Selectaţi limba pentru instalare'
@@ -18,15 +20,23 @@ questions:
     account-name: 'Introduceţi numele de utilizator al administratorului sitului'
     account-mail: 'Introduceţi adresa de email a administratorului sitului'
     account-pass: 'Introduceţi parola administratorului sitului'
+suggestions:
+    site-name: 'My awesome site'
 messages:
     installing: 'Se începe instalarea proiectului Drupal 8.'
     installed: 'Instalarea proiectului Drupa 8 a fost finalizată cu succes.'
     using-current-database: 'Folosiți baza de date "%s" cu numele "%s" și utilizatorul "%s"'
     already-installed: 'Drupal este deja instalat, încercați trunchierea bazei dvs. de date și apoi rulați site:install'
+    connection-failed: 'Connection to the database failed, please check your settings file that has the correct username, password, database, host, port configured.'
     sites-backup: 'The sites.php file has temporarily been renamed to backup.sites.php while Drupal installs.'
     sites-restore: 'The backup of sites.php has been been restored to sites.php.'
     invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new %s "%s"'
+    invalid-db-url: 'Invalid database url, please provide a valid url like "mysql://dbUser:dbPass@dbHost/dbName"'
+    invalid-url-driver: 'Invalid database type, the Sqlite driver is not supported'
 examples:
     -
         description: 'Install a drupal project specifying installation type, language code, database configuration, site name, site email and admin credential settings'
         execution: "drupal site:install  standard  \\\n  --langcode=\"en\"  \\\n  --db-type=\"mysql\"  \\\n  --db-host=\"127.0.0.1\"  \\\n  --db-name=\"drupal8\"  \\\n  --db-user=\"u53rn4m3\"  \\\n  --db-pass=\"dbp455\"  \\\n  --db-port=\"3306\"  \\\n  --site-name=\"Drupal 8\"  \\\n  --site-mail=\"admin@example.com\"  \\\n  --account-name=\"admin\"  \\\n  --account-mail=\"admin@example.com\"  \\\n  --account-pass=\"p455w0rd\"\n"
+    -
+        description: 'Install a drupal project using a mysql url'
+        execution: "drupal site:install  standard  mysql://dbUser:dbPass@dbHost/dbName \\\n  --langcode=\"en\"  \\\n  --site-name=\"Drupal 8\"  \\\n  --site-mail=\"admin@example.com\"  \\\n  --account-name=\"admin\"  \\\n  --account-mail=\"admin@example.com\"  \\\n  --account-pass=\"p455w0rd\"\n"

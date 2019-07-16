@@ -1,5 +1,6 @@
 description: 'Generează un plugin de formatare a imaginii.'
 help: 'Comanda <info>generate:plugin:imageformatter</info> vă va ajuta la generarea unei noi extensii de formatare a imaginii.'
+welcome: 'Welcome to the Drupal Image Formatter Plugin generator'
 options:
     module: common.options.module
     class: 'Numele clasei pluginului'

@@ -1,11 +1,17 @@
 description: 'Returneaza un URL de logare care poate fi folosit o singură dată.'
 options:
+    user: 'User name/id.'
     user-id: 'ID utilizator.'
 messages:
     url: 'URL de logare pentru "%s": "%s"'
+questions:
+    user: 'Enter User name/id'
 errors:
     invalid-user: 'Nu se poate deschide entitatea utilizator (ID utilizator: "%s").'
 examples:
     -
         description: 'Get one time login url for user id 1'
         execution: "drupal user:login:url  1\n"
+    -
+        description: 'Get one time login url for username jmolivas'
+        execution: 'drupal user:login:url jmolivas'

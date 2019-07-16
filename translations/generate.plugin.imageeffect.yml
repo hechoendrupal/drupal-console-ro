@@ -13,6 +13,8 @@ questions:
     label: 'Introduceți eticheta pluginului'
     plugin-id: 'Introduceți ID-ul pluginului'
     description: 'Introduceți descrierea pluginului'
+suggestions:
+    my-image-effect: 'My Image Effect'
 examples:
     -
         description: 'Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description'
